@@ -78,7 +78,7 @@ while not done:
     score_sur.blit(score_shrift.render("SCORE:"+str(score), 1, (255,255,255)), (0,0))
 
     if over(enemy_y) != 0:
-        screen.fill((234, 137, 154)) and font.render( True, (0, 0, 0))
+        screen.fill((167, 230, 60)) and font.render( True, (0, 0, 0))
     screen.blit(backgroundImage, (0, 0))
     player(player_x, player_y)
     molniya(molniya_x, molniya_y)
