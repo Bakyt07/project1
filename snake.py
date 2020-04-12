@@ -51,8 +51,8 @@ def impact():
             lemon.y = random.randint(10, 550)
     
 def Scores():
-     font = pygame.font.SysFont("Calibri", 30)
-     score = font.render("S C O R E: " + str(snake.score), True, (0,0,0))
+     font = pygame.font.SysFont(50, 30)
+     score = font.render("score " + str(snake.score), True, (0,0,0))
      screen.blit(score, (575, 34))
 def limit():
         if snake.elements[0][0]>=760 or snake.elements[0][0]<=30 or snake.elements[0][1]<=30 or snake.elements[0][1]>=575:
