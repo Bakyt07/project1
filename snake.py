@@ -46,9 +46,9 @@ def impact():
         if (lemon.x>= snake.elements[0][0]-27 and lemon.x<snake.elements[0][0]+27) and  (lemon.y >= snake.elements[0][1]-27 and lemon.y<snake.elements[0][1] +27):
          snake.is_add = True
          if snake.is_add == True:
-            snake.score +=1
-            lemon.x = random.randint(10, 750)
-            lemon.y = random.randint(10, 550)
+            snake.score +=2
+            lemon.x = random.randint(15, 735)
+            lemon.y = random.randint(15, 584)
     
 def Scores():
      font = pygame.font.SysFont(50, 30)
@@ -69,15 +69,15 @@ def endgame():
      snake.radius=0
 snake = Snake()
 lemon=Lemon()
+
 running = True
 score=0
-d = 3
+
+d = 5
 
     
 snake = Snake()
-
 running = True
-
 d = 5
 
 FPS = 30
