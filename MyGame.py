@@ -16,7 +16,7 @@ enemyImage = pygame.image.load("dmsmall1.png")
 enemy_x = random.randint(0, 736)
 enemy_y = random.randint(20, 50)
 
-enemy_dx = 3
+enemy_dx = 4
 enemy_dy = 25
 
 molniyaImage = pygame.image.load("m1.png")
